@@ -1,0 +1,19 @@
+# Sistema de Gestión de Academia de Danza Folklórica
+
+Este documento contiene los diagramas UML del sistema, generados con Mermaid y asistencia de IA, para el curso de Ingeniería de Software.
+
+---
+
+## Diagrama de Casos de Uso
+
+```mermaid
+usecase
+actor Estudiante
+actor Profesor
+actor Administrador
+
+Estudiante --> (Reservar Clase)
+Estudiante --> (Ver Horarios)
+Profesor --> (Registrar Asistencia)
+Administrador --> (Gestionar Usuarios)
+Administrador --> (Generar Reportes)
